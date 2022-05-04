@@ -1,4 +1,8 @@
-파일 다운
+파일 다운>
 $ apt-get update
 $ apt-get install [다운로드명]
+
+파일EP 확인>
+$ readelf -h [파일명]
+ELF파일의 대한 설명을 보여준다. 자세한 것은 $ man readelf
 
