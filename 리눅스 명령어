@@ -1,0 +1,4 @@
+파일 다운
+$ apt-get update
+$ apt-get install [다운로드명]
+
