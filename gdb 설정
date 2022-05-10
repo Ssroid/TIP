@@ -1,0 +1,14 @@
+이전에 pwndbg를 설치를 했는데도 
+
+계속 gdb를 입력을 하면 칼리리눅스 기본 gdb만 실행이 되고 
+pwndbg가 돼지 않았다.
+
+
+그냥 ~/ 파일에 pwndbg 로 다운하고
+
+$ vi ~/.gdbinit   
+
+에 source ~/pwndbg/gdbinit.py 
+을 입력하고 하면은 gdb를 입력하면은 pwndbg로 실행된다.
+
+./gdbinit 파일은 gdb가 실행될때 이 파일로 어떻해 할지 실행함.
