@@ -1,0 +1,7 @@
+wine 을 설치해보자
+
+$sudo apt-get update
+$ sudo apt-get wine
+
+설치가 돼있는지 확인하자
+$ wine --version
