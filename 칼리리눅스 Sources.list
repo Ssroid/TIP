@@ -1,0 +1,17 @@
+원본 파일
+
+deb http://http.kali.org/kali kali-rolling main contrib non-free
+
+
+수정파일
+기분 deb에 #으로 주석처리하고 
+
+deb http://kali.cs.nctu.edu.tw/kali kali-rolling main non-free contrib 로 바꾸기.
+
+하는데 오류가 뜬다. https://kkn1220.tistory.com/123
+
+$ sudo rm /var/lib/apt/lists/* -vf
+$ sudo apt-get update  
+하니 해결 
+
+또다시 이런 오류가 뜬다면 rm 하고 sudo apt-get update 하면은 됀다.!
