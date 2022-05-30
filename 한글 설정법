@@ -1,0 +1,8 @@
+한글 설치법
+
+https://blog.naver.com/dt3141592/222594923498
+
+그래도 fcitx-configtool 에서 한글이 안뜬다.. 해결방법이..
+
+fcitx-configtool로 하지말고 칼리리눅스 자체의 (왼쪽 위) 에 fcitx configration 으로 하고 hangul을 추가하고
+global config 에서 triger input method 에서 한영키 누르면 해결!!
