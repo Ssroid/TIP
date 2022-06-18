@@ -1,0 +1,7 @@
+vscode 에서 C# 확장팩을 설피하기
+인터넷에서 dotnet-sdk 마이크로소프트사이트에서 설치하기
+
+내 컴퓨터 cmd 에서 dotnet --version 로 버젼설치가 맞는지 확인
+vscode 껏다 키기 vsc cmd 에서도 확인가능
+
+실패
