@@ -1,0 +1,17 @@
+pwntools 사용법
+process: 실행파일의 변수를 선언  # r = process("파일명")
+recv(): 출력돼는 문자열의 몇바이트만큼 보여줄것인지 # r.recv(5) 5바이트만큼 stdout
+recvuntil("문자열"): 출력돼는것중 문자열까지만 출력 stdout
+recvn: recv(인자)와 다르게 인자만큼 출력이 안돼면 기다림
+recvline: 출력돼는 문자열을 반환  # r.recvline: 
+symbols: 
+
+ssh(username, ip, port, password) : ssh서버에 접속할때 
+int(r.recv(숫자),16) : 출력돼는 문자열의 숫자만큼의 바이트를 16진수로 변환
+sendlineafter("문자열",value) : 문자열까지 출력되는 부분이후에 value를 입력
+
+
+elf 파일관련
+symbols : 함수의 offset 주소를 알려줌
+
+블로그: https://blog.naver.com/eunso02/222630005600
